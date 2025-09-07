@@ -42,3 +42,27 @@ button {
 	color: #fff;
 	background-color: #444;
 }
+
+details {
+	margin-top: 2em;
+}
+
+/* Safari adds nasty top and bottom paddings - this way to omit them */
+table, tr, td {
+  overflow: hidden;
+}
+
+th, td {
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+th {
+  background-color: #444444;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #505050;
+}
