@@ -3,12 +3,23 @@
 
 <head>
 	<?php include dirname($_SERVER['DOCUMENT_ROOT']) . "/simpel.cc/php/head.php"; ?>
+	<!-- <meta charset="utf-8">
+	<title>Ascii-Decoder</title> -->
 	<link rel="stylesheet" href="style.min.css">
 </head>
 
 <body>
 	<header>
 		<?php include dirname($_SERVER['DOCUMENT_ROOT']) . "/simpel.cc/php/header.php"; ?>
+		<!-- <nav>
+			<a id="logo" class="cursordefault" href="/"><img src="../Simpel.png" alt="simpel icon" height="48"
+					width="48"></a>
+			<h1>Beep-Loop</h1>
+			<a id="github" href="https://github.com/SimpelMe/ascii-decoder" target="_blank" rel="noopener noreferrer"
+				title="watch source code">
+				<img id="github-cat" src="../github.svg" alt="github logo">
+			</a>
+		</nav> -->
 	</header>
 
 	<main>
